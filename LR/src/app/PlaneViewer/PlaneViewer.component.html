@@ -1,0 +1,25 @@
+<div class="viewerContainer">
+  <div class="description">
+    <div class="param">
+      <div class="title">Название:</div>
+      <div class="body">{{plane.Name}}</div>
+    </div>
+    <div class="param">
+      <div class="title">Год:</div>
+      <div class="body">{{plane.Year}}</div>
+    </div>
+    <div class="param">
+      <div class="title">Страна производства:</div>
+      <div class="body">{{plane.Country}}</div>
+    </div>
+    <div class="param">
+      <div class="title">Вес:</div>
+      <div class="body">{{plane.Weight}}кг</div>
+    </div>
+    <div class="param">
+      <div class="title">Размах крыльев:</div>
+      <div class="body">{{plane.Wings}}м</div>
+    </div>
+  </div>
+  <img [src]="url" [alt]="plane.Name"/>
+</div>

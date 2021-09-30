@@ -1,0 +1,25 @@
+<div class="viewerContainer">
+  <div class="description">
+    <div class="param">
+      <div class="title">Название:</div>
+      <div class="body">{{car.Name}}</div>
+    </div>
+    <div class="param">
+      <div class="title">Год:</div>
+      <div class="body">{{car.Year}}</div>
+    </div>
+    <div class="param">
+      <div class="title">Страна производства:</div>
+      <div class="body">{{car.Country}}</div>
+    </div>
+    <div class="param">
+      <div class="title">Вес:</div>
+      <div class="body">{{car.Weight}}кг</div>
+    </div>
+    <div class="param">
+      <div class="title">Мощность:</div>
+      <div class="body">{{car.Power}}л.с.</div>
+    </div>
+  </div>
+  <img [src]="url" [alt]="car.Name"/>
+</div>

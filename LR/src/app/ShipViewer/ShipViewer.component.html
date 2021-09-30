@@ -1,0 +1,25 @@
+<div class="viewerContainer">
+  <div class="description">
+    <div class="param">
+      <div class="title">Название:</div>
+      <div class="body">{{ship.Name}}</div>
+    </div>
+    <div class="param">
+      <div class="title">Год:</div>
+      <div class="body">{{ship.Year}}</div>
+    </div>
+    <div class="param">
+      <div class="title">Страна производства:</div>
+      <div class="body">{{ship.Country}}</div>
+    </div>
+    <div class="param">
+      <div class="title">Длина:</div>
+      <div class="body">{{ship.Length}}м</div>
+    </div>
+    <div class="param">
+      <div class="title">Водоизмещение:</div>
+      <div class="body">{{ship.Displacement}} тонн</div>
+    </div>
+  </div>
+  <img [src]="url" [alt]="ship.Name"/>
+</div>

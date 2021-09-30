@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: whitesmoke;
+  font-family: Bahnschrift;
+  font-weight: lighter;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.viewerContainer {
+  background-color: #145a8c;
+  border-radius: 7px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+
+  display: flex;
+  flex-direction: column;
+}
+.viewerContainer img {
+  height: 300px;
+  border-radius: 7px;
+  margin: 0;
+}
+.viewerContainer .description {
+  padding: 20px;
+}
+.viewerContainer .description .param {
+  margin-bottom: 5px;
+}
+.viewerContainer .description .param .title {
+  font-weight: bold;
+}

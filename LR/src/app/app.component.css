@@ -1,0 +1,30 @@
+.container nav {
+  background-color: white;
+  border: 5px solid #145a8c;
+  border-radius: 7px;
+  display: flex;
+  margin: 50px auto;
+  padding: 20px;
+  width: 300px;
+  color: #145a8c;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+}
+.container nav a {
+  width: 40px;
+  margin-left: 10px;
+  border-radius: 7px;
+  border: 3px solid transparent;
+  padding: 5px;
+  transition: .2s cubic-bezier(.4, 0, 0, 1);
+}
+.container nav a:hover {
+  cursor: pointer;
+  border: 3px solid #145a8c;
+}
+.container nav a.selected {
+  background-color: #145a8c;
+  color: white;
+}
